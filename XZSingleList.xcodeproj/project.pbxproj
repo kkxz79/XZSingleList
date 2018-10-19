@@ -13,6 +13,8 @@
 		9B54DE8D21785CB600CE99F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B54DE8C21785CB600CE99F0 /* Assets.xcassets */; };
 		9B54DE9021785CB600CE99F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B54DE8E21785CB600CE99F0 /* LaunchScreen.storyboard */; };
 		9B54DE9321785CB600CE99F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B54DE9221785CB600CE99F0 /* main.m */; };
+		9B54DE9B2178608500CE99F0 /* XZListNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B54DE9A2178608500CE99F0 /* XZListNode.m */; };
+		9B54DE9E2178614F00CE99F0 /* XZSingleList.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B54DE9D2178614F00CE99F0 /* XZSingleList.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		9B54DE8F21785CB600CE99F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B54DE9121785CB600CE99F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B54DE9221785CB600CE99F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9B54DE992178608500CE99F0 /* XZListNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZListNode.h; sourceTree = "<group>"; };
+		9B54DE9A2178608500CE99F0 /* XZListNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZListNode.m; sourceTree = "<group>"; };
+		9B54DE9C2178614F00CE99F0 /* XZSingleList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZSingleList.h; sourceTree = "<group>"; };
+		9B54DE9D2178614F00CE99F0 /* XZSingleList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZSingleList.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				9B54DE8421785CB300CE99F0 /* AppDelegate.m */,
 				9B54DE8621785CB300CE99F0 /* ViewController.h */,
 				9B54DE8721785CB300CE99F0 /* ViewController.m */,
+				9B54DE992178608500CE99F0 /* XZListNode.h */,
+				9B54DE9A2178608500CE99F0 /* XZListNode.m */,
+				9B54DE9C2178614F00CE99F0 /* XZSingleList.h */,
+				9B54DE9D2178614F00CE99F0 /* XZSingleList.m */,
 				9B54DE8921785CB300CE99F0 /* Main.storyboard */,
 				9B54DE8C21785CB600CE99F0 /* Assets.xcassets */,
 				9B54DE8E21785CB600CE99F0 /* LaunchScreen.storyboard */,
@@ -144,6 +154,8 @@
 				9B54DE8821785CB300CE99F0 /* ViewController.m in Sources */,
 				9B54DE9321785CB600CE99F0 /* main.m in Sources */,
 				9B54DE8521785CB300CE99F0 /* AppDelegate.m in Sources */,
+				9B54DE9E2178614F00CE99F0 /* XZSingleList.m in Sources */,
+				9B54DE9B2178608500CE99F0 /* XZListNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

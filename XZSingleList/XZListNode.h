@@ -11,7 +11,9 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface XZListNode : NSObject
-
+//数据对象，id类型
+@property (strong, nonatomic) id data;
+@property (nullable,strong,nonatomic)XZListNode * next;
 @end
 
 NS_ASSUME_NONNULL_END
